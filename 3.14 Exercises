@@ -1,0 +1,41 @@
+#Exercise 1
+
+def right_justify(s):
+    print(" " * 70 + s)
+    
+right_justify('monty')
+
+#Exercise 2
+
+def do_four(func, arg):
+    do_twice(func, arg)
+    do_twice(func, arg)
+    
+#Exercise 3
+
+def draw_grid(x):
+    column_start = '+ ' + '- ' * 4
+    column_end = '+'
+    row_start = '/ ' + '  ' * 4
+    row_end = '/'
+    print(column_start * x + column_end) 
+    print(row_start * x + row_end)
+    print(row_start * x + row_end)
+    print(row_start * x + row_end)
+    print(row_start * x + row_end)
+    print(column_start * x + column_end)
+    print(row_start * x + row_end)
+    print(row_start * x + row_end)
+    print(row_start * x + row_end)
+    print(row_start * x + row_end)
+    print(column_start * x + column_end)
+    print(row_start * x + row_end)
+    print(row_start * x + row_end)
+    print(row_start * x + row_end)
+    print(row_start * x + row_end)
+    print(column_start * x + column_end)
+    print(row_start * x + row_end)
+    print(row_start * x + row_end)
+    print(row_start * x + row_end)
+    print(row_start * x + row_end)
+    print(column_start * x + column_end)
